@@ -1,7 +1,7 @@
 const express = require('express')
 class Server{
    
-    contructor(){
+    constructor(){
         this.port = process.env.PORT || 3000
         this.app = express()
         this.routers()
